@@ -16,7 +16,7 @@ public class CalculadoraSimples {
 
             System.out.println("1. Soma");
             System.out.println("2. Subtração");
-            System.out.println("3. Diivisão");
+            System.out.println("3. Divisão");
             System.out.println("4. Sair");
 
             System.out.print("Opção: ");
