@@ -17,8 +17,8 @@ public class CalculadoraSimples {
             System.out.println("1. Soma");
             System.out.println("2. Subtração");
             System.out.println("3. Divisão");
-            System.out.println("3. Sair");
-            System.out.println("4. Sair");
+            System.out.println("4. Multiplicação");
+            System.out.println("5. Sair");
 
             System.out.print("Opção: ");
             op = entrada.nextInt();
@@ -57,7 +57,7 @@ public class CalculadoraSimples {
             } else if (op == 3) {
                 System.out.println("\n\t\t\t -- Divisão -- \n");
 
-                //Divisão
+               
                 // Entrada
                 System.out.println("Informe n1");
                 n1 = entrada.nextInt();
@@ -71,12 +71,28 @@ public class CalculadoraSimples {
                 System.out.printf("%d / %d = %d", n1, n2, total);
 
             } else if (op == 4) {
+                System.out.println("\n\t\t\t -- Multiplicação -- \n");
+    
+                
+                // Entrada
+                System.out.println("Informe n1");
+                n1 = entrada.nextInt();
+                System.out.println("Informe n2");
+                n2 = entrada.nextInt();
+    
+                // Processamento
+                    total = n1 * n2;
+    
+                // Saida
+                System.out.printf("%d * %d = %d", n1, n2, total);
+
+            } else if (op == 5) {
                 System.out.println("Forte abraço!");
             } else {
                 System.out.println("Opção " + op + " incorreta!");
             }
 
-        } while (op != 4);
+        } while (op != 5);
 
     }
 
