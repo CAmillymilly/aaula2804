@@ -19,6 +19,7 @@ public class CalculadoraSimples {
             System.out.println("3. Divisão");
             System.out.println("4. Multiplicação");
             System.out.println("5. Sair");
+      
 
             System.out.print("Opção: ");
             op = entrada.nextInt();
